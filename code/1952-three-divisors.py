@@ -7,7 +7,4 @@ class Solution:
             if count > 3:
                 return False
 
-        if count == 3:
-            return True
-        return False
-        
+        return count == 3
